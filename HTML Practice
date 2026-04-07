@@ -1,13 +1,20 @@
-Graphic Design Services
-Crafting bold, thoughtful visuals for brands that want to stand out.
-Home
-Portfolio
-Services
-About
-Contact
-
-
-Featured Work
+ <!-- ====== HEADER SECTION ========================================== -->
+<header>
+    <h1>Graphic Design Services</h1> 
+    <p>Crafting bold, thoughtful visuals for brands that want to stand out.</p>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- ===== MAIN CONTENT =============================================== -->
+<main>
+<h2>Featured Work</h2> 
 Brand Identity: Wild Bloom Botanicals
 
 A vibrant, earthy brand system for a natural skincare company. Includes logo, packaging, and web design.
@@ -22,7 +29,7 @@ Minimalist portfolio site for a photography studio, built with accessibility and
 
 
 
-Services Offered
+<h2>Services Offered</h2>
 Logo & Brand Identity
 Custom logos, color palettes, typography systems, and brand guidelines.
 Print Design
@@ -31,7 +38,7 @@ Web & UI Design
 Figma-based website and app interfaces, responsive and accessible.
 
 
-About the Designer
+<h2>About the Designer</h2>
 Based in Providence, RI, I specialize in branding, layout, and digital design. With over 4 years of experience, I create visuals that communicate clearly, feel intentional, and connect emotionally.
 
 
@@ -46,7 +53,7 @@ Client Testimonials
 — Studio Nova
 
 
-
+<!-- ===== FOOTER SECTION =============================================== -->
 Contact
 Let’s work together!
 
