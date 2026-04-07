@@ -14,53 +14,47 @@
 </header>
 <!-- ===== MAIN CONTENT =============================================== -->
 <main>
-<h2>Featured Work</h2> 
-Brand Identity: Wild Bloom Botanicals
+ <h2>Featured Work</h2> 
+ 
+ <h3>Brand Identity: <strong>Wild Bloom Botanicals</strong></h3>
+    <p>A vibrant, earthy brand system for a natural skincare company. Includes logo, packaging, and web design.</p>
+ 
+ <h3>Editorial Layout: <strong>Urban Threads Magazine</strong></h3>
+    <p>Modern typography and layout for a fashion-forward print publication.</p>
+ 
+ <h3>Web Design: <strong>Studio Nova</strong></h3>
+    <p>Minimalist portfolio site for a photography studio, built with accessibility and mobile-first design in mind.</p>
 
-A vibrant, earthy brand system for a natural skincare company. Includes logo, packaging, and web design.
-
-Editorial Layout: Urban Threads Magazine
-
-Modern typography and layout for a fashion-forward print publication.
-
-Web Design: Studio Nova
-
-Minimalist portfolio site for a photography studio, built with accessibility and mobile-first design in mind.
-
-
-
-<h2>Services Offered</h2>
-Logo & Brand Identity
-Custom logos, color palettes, typography systems, and brand guidelines.
-Print Design
-Posters, brochures, packaging, and editorial layouts.
-Web & UI Design
-Figma-based website and app interfaces, responsive and accessible.
-
-
-<h2>About the Designer</h2>
-Based in Providence, RI, I specialize in branding, layout, and digital design. With over 4 years of experience, I create visuals that communicate clearly, feel intentional, and connect emotionally.
+ <h2>Services Offered</h2>
+ 
+ <h3>Logo & Brand Identity</h3>
+    <p>Custom logos, color palettes, typography systems, and brand guidelines.</p>
+ 
+ <h3>Print Design</h3>
+    <p>Posters, brochures, packaging, and editorial layouts.</p>
+ 
+ <h3>Web & UI Design</h3>
+    <p>Figma-based website and app interfaces, responsive and accessible.</p>
 
 
+ <h2>About the Designer</h2>
+    <p>Based in Providence, RI, I specialize in branding, layout, and digital design. With over 4 years of experience, I create visuals that communicate clearly, feel intentional, and connect emotionally.</p>
 
-Client Testimonials
-“Their design elevated our brand beyond expectations.”
-
-— Wild Bloom Botanicals
-
-“Clean, modern, and exactly what we needed.”
-
-— Studio Nova
-
-
+ <h2>Client Testimonials</h2>
+    <em><blockquote>“Their design elevated our brand beyond expectations.”</blockquote></em>
+ <h3>— Wild Bloom Botanicals<h3>
+    
+ <em><blockquote>“Clean, modern, and exactly what we needed.”</blockquote></em>
+ <h3>— Studio Nova<h3>
 <!-- ===== FOOTER SECTION =============================================== -->
-Contact
-Let’s work together!
+<footer>
+    Contact
+    Let’s work together!
 
-Email: hello@graphicdesign.com
+    Email: hello@graphicdesign.com
 
 
 
-© 2025 Graphic Design
+    © 2025 Graphic Design
 
-Designed with ❤️ in Providence, RI
+    Designed with ❤️ in Providence, RI
