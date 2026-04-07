@@ -1,4 +1,5 @@
- <!-- ====== HEADER SECTION ========================================== -->
+<!DOCTYPE html>
+<!-- ====== HEADER SECTION ========================================== -->
 <header>
     <h1>Graphic Design Services</h1> 
     <p>Crafting bold, thoughtful visuals for brands that want to stand out.</p>
@@ -14,17 +15,20 @@
 </header>
 <!-- ===== MAIN CONTENT =============================================== -->
 <main>
- <h2>Featured Work</h2> 
+ <section id="portfolio">
+   <h2>Featured Work</h2> 
  
- <h3>Brand Identity: <strong>Wild Bloom Botanicals</strong></h3>
+   <h3>Brand Identity: Wild Bloom Botanicals</h3>
     <p>A vibrant, earthy brand system for a natural skincare company. Includes logo, packaging, and web design.</p>
  
- <h3>Editorial Layout: <strong>Urban Threads Magazine</strong></h3>
+ <h3>Editorial Layout: Urban Threads Magazine</h3>
     <p>Modern typography and layout for a fashion-forward print publication.</p>
  
- <h3>Web Design: <strong>Studio Nova</strong></h3>
+ <h3>Web Design: Studio Nova</h3>
     <p>Minimalist portfolio site for a photography studio, built with accessibility and mobile-first design in mind.</p>
-
+ </section>
+ 
+ <section id="services">
  <h2>Services Offered</h2>
  
  <h3>Logo & Brand Identity</h3>
@@ -35,26 +39,32 @@
  
  <h3>Web & UI Design</h3>
     <p>Figma-based website and app interfaces, responsive and accessible.</p>
+ </section>
 
-
+ <section id="about">
  <h2>About the Designer</h2>
     <p>Based in Providence, RI, I specialize in branding, layout, and digital design. With over 4 years of experience, I create visuals that communicate clearly, feel intentional, and connect emotionally.</p>
-
+ 
  <h2>Client Testimonials</h2>
-    <em><blockquote>“Their design elevated our brand beyond expectations.”</blockquote></em>
+ 
+ <em><blockquote>“Their design elevated our brand beyond expectations.”</blockquote></em>
  <h3>— Wild Bloom Botanicals<h3>
     
  <em><blockquote>“Clean, modern, and exactly what we needed.”</blockquote></em>
  <h3>— Studio Nova<h3>
+ </section>
+</main>
 <!-- ===== FOOTER SECTION =============================================== -->
 <footer>
-    Contact
-    Let’s work together!
+ <section id="contact">
+ <h2>Contact</h2>
+ <p><strong>Let’s work together!</strong></p>
 
-    Email: hello@graphicdesign.com
+ <p>Email:<a>hello@graphicdesign.com</a></p>
 
+ <p><strong>© 2025 Graphic Design</strong></p>
 
-
-    © 2025 Graphic Design
-
-    Designed with ❤️ in Providence, RI
+ <em>Designed with ❤️ in Providence, RI</em>
+ </section>
+</footer>
+</html>
