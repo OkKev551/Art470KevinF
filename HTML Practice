@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>HTML Practice</title>
+</head>
+<body>
 <!-- ====== HEADER SECTION ========================================== -->
 <header>
     <h1>Graphic Design Services</h1> 
@@ -47,11 +52,11 @@
  
  <h2>Client Testimonials</h2>
  
- <em><blockquote>“Their design elevated our brand beyond expectations.”</blockquote></em>
- <h3>— Wild Bloom Botanicals<h3>
+ <q>“Their design elevated our brand beyond expectations.”</q>
+ <h3>— Wild Bloom Botanicals</h3>
     
- <em><blockquote>“Clean, modern, and exactly what we needed.”</blockquote></em>
- <h3>— Studio Nova<h3>
+ <q>“Clean, modern, and exactly what we needed.”</q>
+ <h3>— Studio Nova</h3>
  </section>
 </main>
 <!-- ===== FOOTER SECTION =============================================== -->
@@ -67,4 +72,5 @@
  <p><em>Designed with ❤️ in Providence, RI</em></p>
  </section>
 </footer>
+</body>
 </html>
