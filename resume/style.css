@@ -1,14 +1,14 @@
 /* --- 1. Core Variables & Theme --- */
 :root {
-  --bg-color: #fcfcfc;          /* Clinical white */
-  --text-main: #111111;         /* Matte black */
-  --text-muted: #555555;
-  --accent-silver: #c0c4cc;     /* Silver/chrome highlights */
-  --border-dark: #111111;
+  --bg-color: #ffffff;          /* Clinical white */
+  --text-main: #000000;         /* Matte black */
+  --text-muted: #686868;
+  --accent: #00ccff;     /* Silver/chrome highlights */
+  --border: #0059ff;
   
   /* Mixing a clean sans-serif with a technical monospace */
-  --font-display: 'Helvetica Neue', Arial, sans-serif;
-  --font-tech: 'Courier New', Courier, monospace;
+  --font-display: 'Tomorrow', Arial, sans-serif;
+  --font-tech: 'Turret Road', Courier, monospace;
 }
 
 /* --- 2. Resets & Base --- */
@@ -30,12 +30,13 @@ body {
 
 /* --- 3. Header Styling (The "ID Badge" Look) --- */
 header {
-  border: 3px solid var(--border-dark);
+  border: 10px solid var(--border);
+  border-radius: 80px;
   padding: 2rem;
   margin-bottom: 3rem;
   text-align: center;
-  background: #ffffff;
-  box-shadow: 6px 6px 0px var(--accent-silver); /* Hard, brutalist shadow */
+  background: #ff6017;
+  box-shadow: 6px 6px 0px var(--accent); /* Hard, brutalist shadow */
 }
 
 header h1 {
@@ -49,7 +50,7 @@ header p {
   font-family: var(--font-tech);
   font-size: 1rem;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: #ffffff ;
   margin-bottom: 1.5rem;
 }
 
@@ -81,7 +82,7 @@ main {
 section h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
-  border-bottom: 2px solid var(--border-dark);
+  border-bottom: 2px solid var(--border);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -126,13 +127,13 @@ li {
 }
 
 #skills li {
-  background: var(--text-main);
+  background: #ff6017;
   color: var(--bg-color);
   padding: 0.75rem 1rem;
   font-family: var(--font-tech);
   font-size: 0.9rem;
   text-align: center;
-  border-radius: 2px; /* Slight capsule shape */
+  border-radius: 80px; /* Slight capsule shape */
 }
 
 /* --- 7. Footer --- */
@@ -142,6 +143,6 @@ footer {
   font-family: var(--font-tech);
   font-size: 0.8rem;
   color: var(--text-muted);
-  border-top: 1px solid var(--accent-silver);
+  border-top: 1px solid #0059ff;
   padding-top: 1rem;
 }
