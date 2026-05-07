@@ -1,0 +1,148 @@
+/* --- 1. Core Variables & Theme --- */
+:root {
+  --bg-color: #ffffff;          /* Clinical white */
+  --text-main: #000000;         /* Matte black */
+  --text-muted: #686868;
+  --accent: #00ccff;     /* Silver/chrome highlights */
+  --border: #0059ff;
+  
+  /* Mixing a clean sans-serif with a technical monospace */
+  --font-display: 'Tomorrow', Arial, sans-serif;
+  --font-tech: 'Turret Road', Courier, monospace;
+}
+
+/* --- 2. Resets & Base --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-display);
+  color: var(--text-main);
+  background-color: var(--bg-color);
+  line-height: 1.5;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* --- 3. Header Styling (The "ID Badge" Look) --- */
+header {
+  border: 10px solid var(--border);
+  border-radius: 80px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  background: #ff6017;
+  box-shadow: 6px 6px 0px var(--accent); /* Hard, brutalist shadow */
+}
+
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-family: var(--font-tech);
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ffffff ;
+  margin-bottom: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+header nav a:hover {
+  border-bottom: 2px solid var(--text-main);
+}
+
+/* --- 4. Main Content Layout --- */
+main {
+  display: grid;
+  gap: 3rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* --- 5. Articles (Education & Experience) --- */
+article {
+  margin-bottom: 2rem;
+}
+
+article h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+article p {
+  font-family: var(--font-tech);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+article p strong {
+  color: var(--text-main);
+}
+
+/* --- 6. Lists & Skills --- */
+ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Specific styling for the skills grid */
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+#skills li {
+  background: #ff6017;
+  color: var(--bg-color);
+  padding: 0.75rem 1rem;
+  font-family: var(--font-tech);
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 80px; /* Slight capsule shape */
+}
+
+/* --- 7. Footer --- */
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-family: var(--font-tech);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-top: 1px solid #0059ff;
+  padding-top: 1rem;
+}
