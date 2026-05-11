@@ -1,9 +1,9 @@
 /* --- 1. Core Variables & Theme --- */
 :root {
-  --bg-color: #ffffff;          /* Clinical white */
-  --text-main: #000000;         /* Matte black */
+  --bg-color: #ffffff;          
+  --text-main: #000000;         
   --text-muted: #686868;
-  --accent: #00ccff;     /* Silver/chrome highlights */
+  --accent: #00ccff;     
   --border: #0059ff;
   
   /* Mixing a clean sans-serif with a technical monospace */
@@ -36,7 +36,7 @@ header {
   margin-bottom: 3rem;
   text-align: center;
   background: #ff6017;
-  box-shadow: 6px 6px 0px var(--accent); /* Hard, brutalist shadow */
+  box-shadow: 6px 6px 0px var(--accent); 
 }
 
 header h1 {
