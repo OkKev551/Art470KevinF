@@ -19,10 +19,12 @@
 }
 
 body {
-  font-family: var(--font-display);
+ font-family: var(--font-display);
   color: var(--text-main);
-  background-color: var(--bg-color);
-  line-height: 1.5;
+  /* REPLACED: background-color: var(--bg-color); */
+  background: linear-gradient(135deg, #0097d3 0%, var(--bg-color) 100%);
+  /* Added min-height so the gradient stretches to the bottom of the screen */
+  min-height: 100vh;
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
@@ -77,6 +79,14 @@ header nav a:hover {
 main {
   display: grid;
   gap: 3rem;
+}
+
+/* --- New: Section ID Badge Styling --- */
+section {
+  border: 3px solid var(--border);
+  padding: 2rem;
+  background: #ff6017; 
+  box-shadow: 6px 6px 0px var(--accent); /* Matches the header shadow */
 }
 
 section h2 {
