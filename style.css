@@ -1,33 +1,38 @@
-.portfolio-header {
-  position: relative; /* CRITICAL: Establishes a boundary for the pseudo-element */
-  z-index: 1; /* Places the header and its content above the semi-transparent image */
+/* 1. The Main Header */
+header { 
+  position: relative;
+  /* CRITICAL: This clips the image so it doesn't spill out of your rounded corners! */
+  overflow: hidden; 
   
-  /* --- existing header styles (e.g., padding, alignment) --- */
-  padding: 4rem 2rem;
-  color: #111111; /* Example text color, fully opaque */
-  text-align: center;
-  border-bottom: 3px solid #111111; /* Existing style example */
-  /* Do NOT set background-image or opacity on the .portfolio-header directly */
+  /* (Keep your existing background-color, border, border-radius, and padding here) */
 }
 
-/* 2. Create and style the semi-transparent image layer using ::before */
-.portfolio-header::before {
-  content: ''; /* Required for pseudo-elements */
-  position: absolute; /* Place it absolutely within .portfolio-header */
-  top: 0;
-  left: 0;
-  width: 100%;
+/* 2. The Image Layer */
+header::before {
+  content: '';
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
   height: 100%;
-  z-index: -1; /* CRITICAL: Ensure it sits BEHIND the text content */
-
-  /* 3. SET YOUR IMAGE AND DESIRED OPACITY HERE */
-  background-image: url('resume images/mascot thing.png'); /* REPLACE with your actual image path */
-  opacity: 1.0; /* ADJUST this number (0.0 to 1.0) for your desired opacity (e.g., 50% opacity) */
   
-  /* --- Additional image controls --- */
-  background-size: cover; /* Optional: Scale image to fill header area (can be contain, 50%, etc.) */
-  background-position: center; /* Optional: Center the image (can be top left, etc.) */
-  background-repeat: no-repeat; /* Optional: Prevent image from tiling */ 
+  background-image: url('resume images/mascot thing.png'); /* Make sure path is correct */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust your opacity here */
+  
+  /* CRITICAL: Changed from -1 to 1. This puts the image ABOVE the orange background */
+  z-index: 1; 
+}
+
+/* 3. The Text Layer */
+/* We have to tell the text to sit on top of the new image layer */
+header h1, 
+header p, 
+header nav {
+  position: relative;
+  /* CRITICAL: Puts the text above the image (which is z-index 1) */
+  z-index: 2; 
 }
 
 /* --- 1. Core Variables & Theme --- */
