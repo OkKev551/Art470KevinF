@@ -22,7 +22,7 @@ body {
  font-family: var(--font-display);
   color: var(--text-main);
   /* REPLACED: background-color: var(--bg-color); */
-  background: linear-gradient(135deg, #0097d3 0%, var(--bg-color) 100%);
+  background: linear-gradient(to top, #0097d3 0%, var(--bg-color) 100%);
   /* Added min-height so the gradient stretches to the bottom of the screen */
   min-height: 100vh;
   padding: 2rem;
@@ -84,6 +84,7 @@ main {
 /* --- New: Section ID Badge Styling --- */
 section {
   border: 3px solid var(--border);
+  border-radius: 80px;
   padding: 2rem;
   background: #ff6017; 
   box-shadow: 6px 6px 0px var(--accent); /* Matches the header shadow */
