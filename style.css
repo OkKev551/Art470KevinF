@@ -22,7 +22,7 @@
 
   /* 3. SET YOUR IMAGE AND DESIRED OPACITY HERE */
   background-image: url('resume images/mascot thing.png'); /* REPLACE with your actual image path */
-  opacity: 0.5; /* ADJUST this number (0.0 to 1.0) for your desired opacity (e.g., 50% opacity) */
+  opacity: 1.0; /* ADJUST this number (0.0 to 1.0) for your desired opacity (e.g., 50% opacity) */
   
   /* --- Additional image controls --- */
   background-size: cover; /* Optional: Scale image to fill header area (can be contain, 50%, etc.) */
