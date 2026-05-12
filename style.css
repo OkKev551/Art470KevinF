@@ -41,7 +41,7 @@ header::before {
   width: 100%; 
   height: 100%;
   
-  background-image: url('art470/resume images/mascot thing.png'); /* Make sure path is correct */
+  background-image: url('resume_images/mascot_thing.png'); /* Make sure path is correct */
   background-size: cover;
   background-position: center;
   opacity: 0.5; /* Adjust your opacity here */
